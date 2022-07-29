@@ -6,7 +6,7 @@ lint:
 	pylint --disable=R,C hello.py ##disable recommended & config warnings, keeps warnings and errors
 
 format:
-	black *.py
+	black
 
 test:
 	python -m pytest -vv --cov=hello test_hello.py
