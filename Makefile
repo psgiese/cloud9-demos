@@ -1,6 +1,6 @@
 install:
 	pip install --upgrade pip &&\
-		pip install -r /home/ec2-user/environment/cloud9-demos/requirements.txt
+		pip install -r requirements.txt
 
 lint:
 	pylint --disable=R,C *.py ##disable recommended & config warnings, keeps warnings and errors
